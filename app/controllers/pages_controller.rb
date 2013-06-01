@@ -4,4 +4,7 @@ class PagesController < ApplicationController
 
   def research
   end
+
+  def publications
+  end
 end
