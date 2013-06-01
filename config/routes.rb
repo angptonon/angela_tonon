@@ -1,5 +1,5 @@
 AngelaTonon::Application.routes.draw do
-  
+  match '/research', :to => 'pages#research'  
 
   root :to => 'pages#home'
 
