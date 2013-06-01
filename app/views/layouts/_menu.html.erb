@@ -1,0 +1,24 @@
+<% page_name = yield(:page_name) %>
+
+<div class="navbar navbar-inverse navbar-fixed-top">
+  <div class="navbar-inner">
+    <div class="container">
+      <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <%= link_to 'Angela Tonon', root_path, class: 'brand' %>
+      <div class="nav-collapse collapse">
+        <ul class="nav">
+          <li class="<%= li_class("home", page_name)%>"><%= link_to 'Home', root_path %></li>
+          <li class="<%= li_class("research", page_name)%>"><%= link_to 'Research', '#' %></li>
+          <li class="<%= li_class("publications", page_name)%>"><%= link_to 'Publications', '#' %></li>
+          <li class="<%= li_class("media", page_name)%>"><%= link_to 'Media', '#' %></li>
+          <li class="<%= li_class("contact", page_name)%>"><%= link_to 'Contact', '#' %></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+

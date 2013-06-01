@@ -1,14 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>AngelaTonon</title>
+  <title>Angela Pedroso Tonon</title>
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
+  <!--[if lt IE 9]>
+    <script src="../assets/js/html5shiv.js"></script>
+  <![endif]-->
 </head>
 <body>
-
-<%= yield %>
-
+	<%= render 'layouts/menu' %>
+	<div class="container">
+		<%= yield %>
+		<hr>
+	  <%= render 'layouts/footer' %>
+	</div>
 </body>
 </html>
