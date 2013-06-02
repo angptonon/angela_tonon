@@ -10,4 +10,7 @@ class PagesController < ApplicationController
 
   def media
   end
+
+  def links
+  end
 end
