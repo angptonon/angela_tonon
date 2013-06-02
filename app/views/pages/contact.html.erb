@@ -1,0 +1,33 @@
+<% provide(:page_name, "contact") %>
+
+<h1>Contact Information</h1>
+
+<address>
+  <strong>Dr. Angela Pedrososo Tonon</strong><br>
+  <a href="mailto:angptonon@gmail.com">angptonon@gmail.com</a>
+</address>
+
+<address>
+  <strong>Office Address</strong><br>
+  748, Prof. Lineu Prestes, suite 0970<br>
+  Cidade Universitária <zip>05508-000</zip><br>
+  São Paulo, Brazil
+</address>
+
+<hr />
+
+<h2>Social Media <%= image_tag 'sm.jpg', alt: 'Social Media', size: '120x120' %></h2>
+
+<ul class="unstyled">
+	<li class="extra-margin-bottom">
+		<%= image_tag 'fb.jpeg', size: '25x25' %> <%= link_to 'See my page at Facebook', 
+		'https://www.facebook.com/angela.tonon.73' %> 
+	</li>
+	<li class="extra-margin-bottom">
+		<%= image_tag 't.jpg', size: '25x25' %> <%= link_to 'Follow me on Twitter', 'https://twitter.com/angptonon' %>
+	</li>
+	<li class="extra-margin-bottom">
+		<%= image_tag 'yt.png', size: '25x25' %> <%= link_to 'Watch my channel at YouTube', 
+		'http://www.youtube.com/channel/UC56n3MU1EXaDPw3-4uF_EXA' %> 
+	</li>
+</ul>

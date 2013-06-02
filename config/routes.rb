@@ -3,6 +3,7 @@ AngelaTonon::Application.routes.draw do
   match '/publications', :to => 'pages#publications'  
   match '/media', :to => 'pages#media'  
   match '/links', :to => 'pages#links'  
+  match '/contact', :to => 'pages#contact'
 
   root :to => 'pages#home'
 
