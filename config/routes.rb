@@ -1,6 +1,7 @@
 AngelaTonon::Application.routes.draw do
   match '/research', :to => 'pages#research'
   match '/publications', :to => 'pages#publications'  
+  match '/media', :to => 'pages#media'  
 
   root :to => 'pages#home'
 

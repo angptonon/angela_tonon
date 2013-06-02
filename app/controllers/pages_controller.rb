@@ -7,4 +7,7 @@ class PagesController < ApplicationController
 
   def publications
   end
+
+  def media
+  end
 end
